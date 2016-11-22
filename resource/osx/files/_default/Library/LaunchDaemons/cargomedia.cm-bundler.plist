@@ -6,9 +6,8 @@
         <string>cargomedia.cm-bundler</string>
         <key>ProgramArguments</key>
         <array>
-            <string>/bin/sh</string>
-            <string>-c</string>
-            <string>/usr/local/bin/cm-bundler --base-dir=$HOME/Projects/sk --log-file=$HOME/Projects/sk/data/logs/cm-bundler.log</string>
+            <string>/usr/local/bin/cm-bundler</string>
+            <string>-v</string>
         </array>
         <key>EnvironmentVariables</key>
         <dict>
@@ -17,5 +16,9 @@
         </dict>
         <key>RunAtLoad</key>
         <false/>
+        <key>StandardOutPath</key>
+        <string>/tmp/cm-bundler.out.log</string>
+        <key>StandardErrorPath</key>
+        <string>/tmp/cm-bundler.err.log</string>
     </dict>
 </plist>
