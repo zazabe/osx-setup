@@ -7,7 +7,7 @@
         <key>ProgramArguments</key>
         <array>
             <string>/usr/local/bin/cm-bundler</string>
-            <string>-v</string>
+            <!--<string>-v</string>-->
         </array>
         <key>EnvironmentVariables</key>
         <dict>
@@ -17,8 +17,8 @@
         <key>RunAtLoad</key>
         <false/>
         <key>StandardOutPath</key>
-        <string>/tmp/cm-bundler.out.log</string>
+        <string>/tmp/cm-bundler.log</string>
         <key>StandardErrorPath</key>
-        <string>/tmp/cm-bundler.err.log</string>
+        <string>/tmp/cm-bundler.log</string>
     </dict>
 </plist>
